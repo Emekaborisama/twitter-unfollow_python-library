@@ -2,10 +2,10 @@ import pathlib
 from setuptools import setup
 
 # The directory containing this file
-HERE = pathlib.Path('Downloads/New_data_file/Unfollow_bot/setup.py').parent
+HERE = pathlib.Path('Downloads/New_data_file/Unfollow_bot/twitter-unfollow_python-library/setup.py').parent
 
 # The text of the README file
-README = (HERE / "README.md").read_text()
+README = ("README.md")
 
 # This call to setup() does all the work
 setup(
@@ -23,12 +23,12 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["reader"],
+    packages=["unfollow"],
     include_package_data=True,
-    install_requires=["feedparser", "html2text"],
+    install_requires=["tweepy"],
     entry_points={
         "console_scripts": [
-            "realpython=reader.__main__:main",
+            "unfollow_bot=__main__:main",
         ]
     },
 )

@@ -1,0 +1,9 @@
+README.md
+setup.py
+twitter_unfollow.egg-info/PKG-INFO
+twitter_unfollow.egg-info/SOURCES.txt
+twitter_unfollow.egg-info/dependency_links.txt
+twitter_unfollow.egg-info/entry_points.txt
+twitter_unfollow.egg-info/requires.txt
+twitter_unfollow.egg-info/top_level.txt
+unfollow/unfollow.py

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: twitter-unfollow
+Version: 1.0.0
+Summary: build an unfollow bot
+Home-page: https://github.com
+Author: Emeka Boris
+Author-email: borisphilosophy@gmail.com
+License: MIT
+Description: README.md
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

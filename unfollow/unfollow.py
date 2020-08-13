@@ -48,7 +48,6 @@ class unfollow_bot():
                 self.count += 1
                 print(f"You just unfollowed {self.count} accounts. @{self.user} is now following {len(api.friends_ids(self.user))}.")
                 
-if __name__ == "__main__":
-      main()
+
     
     
